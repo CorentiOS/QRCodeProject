@@ -19,7 +19,6 @@
 		1998657723CC6FFA009AC6FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1998657623CC6FFA009AC6FF /* GoogleService-Info.plist */; };
 		19AE6BA223CF721800672D7A /* CodeListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE6BA123CF721800672D7A /* CodeListTableViewController.swift */; };
 		19B8C3EC2416393A00DA9951 /* codeCadeau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B8C3EB2416393A00DA9951 /* codeCadeau.swift */; };
-		19C35B7224A4ED5B00742164 /* try.c in Sources */ = {isa = PBXBuildFile; fileRef = 19C35B7124A4ED5B00742164 /* try.c */; };
 		19CC5B6F23E81A730017938D /* HistoryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC5B6E23E81A730017938D /* HistoryCellView.swift */; };
 		6D0FBEC75942606B52E65E88 /* libPods-QRScannerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBBDF57032E1F6B9CB48FE0 /* libPods-QRScannerTests.a */; };
 		6F4E69C084B7875DC6D2003C /* libPods-QRScannerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD06C5A1CDE3E563D6DF46F /* libPods-QRScannerUITests.a */; };
@@ -63,8 +62,6 @@
 		1998657623CC6FFA009AC6FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		19AE6BA123CF721800672D7A /* CodeListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeListTableViewController.swift; sourceTree = "<group>"; };
 		19B8C3EB2416393A00DA9951 /* codeCadeau.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codeCadeau.swift; sourceTree = "<group>"; };
-		19C35B7024A4ED5B00742164 /* try.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = try.h; sourceTree = "<group>"; };
-		19C35B7124A4ED5B00742164 /* try.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = try.c; sourceTree = "<group>"; };
 		19CC5B6E23E81A730017938D /* HistoryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCellView.swift; sourceTree = "<group>"; };
 		5832F70A75ED9B2E6DB56543 /* Pods-QRScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScannerTests.debug.xcconfig"; path = "Target Support Files/Pods-QRScannerTests/Pods-QRScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		77CDB1DB530F6C8C908BDB6E /* Pods-QRScannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScannerUITests.debug.xcconfig"; path = "Target Support Files/Pods-QRScannerUITests/Pods-QRScannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,8 +105,6 @@
 		19137D3F23C322CD000F8FF6 = {
 			isa = PBXGroup;
 			children = (
-				19C35B7024A4ED5B00742164 /* try.h */,
-				19C35B7124A4ED5B00742164 /* try.c */,
 				19137D4A23C322CD000F8FF6 /* QRScanner */,
 				19137D6123C322D0000F8FF6 /* QRScannerTests */,
 				197BEE352417B28400F01DB9 /* QRScannerUITests */,
@@ -400,7 +395,6 @@
 				1977F44223E81C2C005D68EC /* HistoryDetailViewController.swift in Sources */,
 				19137D4C23C322CD000F8FF6 /* AppDelegate.swift in Sources */,
 				19AE6BA223CF721800672D7A /* CodeListTableViewController.swift in Sources */,
-				19C35B7224A4ED5B00742164 /* try.c in Sources */,
 				19B8C3EC2416393A00DA9951 /* codeCadeau.swift in Sources */,
 				19137D4E23C322CD000F8FF6 /* SceneDelegate.swift in Sources */,
 			);
