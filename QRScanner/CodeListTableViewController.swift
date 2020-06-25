@@ -1,6 +1,6 @@
 //
 //  CodeListTableViewController.swift
-//  QRScanner
+//  QRScanner v1.0
 //
 //  Created by Corentin Medina on 15/01/2020.
 //  Copyright © 2020 Corentin Medina. All rights reserved.

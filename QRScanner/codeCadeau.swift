@@ -3,7 +3,7 @@
 //  QRScanner
 //
 //  Created by Corentin Medina on 09/03/2020.
-//  Copyright © 2020 Corentin Medina. All rights reserved.
+//  QRScanner v1.0 © 2020 Corentin Medina. All rights reserved.
 //
 
 import Foundation
