@@ -1,6 +1,6 @@
 # QRScanner
 
-Welcome to QR Scanner app !
+Welcome to QR Scanner app
 
 This is a professional project of my 3nd year school.
 
@@ -13,4 +13,8 @@ Home Screen : You can press SCAN to open the QR Scanner
 History : You can see the history of your scanned valid QR Codes
 
 <img src="https://i.imgur.com/MSONBoE.png" width="200">
+
+You can test these QRs
+
+<img src="https://i.imgur.com/YOr46JO.png" width="200">
 
