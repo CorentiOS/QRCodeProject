@@ -1,4 +1,5 @@
-# QRCodeProject
+# QRScanner
 
+Welcome to QR Scanner app !
 
-M
+This is a professional project of my 3nd year school.
