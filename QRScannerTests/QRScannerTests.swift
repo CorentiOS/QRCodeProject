@@ -10,6 +10,18 @@ import XCTest
 @testable import QRScanner
 
 class QRScannerTests: XCTestCase {
+    
+    func testInitCodeCadeau() {
+        let codeTest = codeCadeau(code: "MCDO25", enddate: "08/05/2020", marchant: "Mcdonald's", qrcode: "dleenfnlm", startdate: "01/01/2020", value: "25%")
+        
+        XCTAssertEqual("MCDO25", codeTest.code)
+        XCTAssertEqual("08/05/2020", codeTest.enddate)
+        XCTAssertEqual("Mcdonald's", codeTest.marchant)
+        XCTAssertEqual("dleenfnlm", codeTest.qrcode)
+        XCTAssertEqual("01/01/2020", codeTest.startdate)
+        XCTAssertEqual("25%", codeTest.value)
+        
+    }
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
