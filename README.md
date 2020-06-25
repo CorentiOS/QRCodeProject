@@ -16,5 +16,5 @@ History : You can see the history of your scanned valid QR Codes
 
 You can test these QRs
 
-<img src="https://i.imgur.com/YOr46JO.png" width="200">
+<img src="https://i.imgur.com/YOr46JO.png">
 
