@@ -23,7 +23,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         scanBtn.layer.cornerRadius = 16
         let newObj = codeCadeau(code: "MCDO25", enddate: "08/05/2020", marchant: "Mcdonald's", qrcode: "dleenfnlm", startdate: "01/01/2020", value: "25%")
         obj.append(newObj)
-        saveData()
+        //saveData()
         loadData()
     }
     
@@ -261,7 +261,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     func loadData() {
         do {
             obj = []
-            let storedObjItem = UserDefaults.standard.object(forKey: "items")
+            let storedObjItem = UserDefaults.standard.object(forKey: "items_qr")
             if (storedObjItem != nil) {
                 let storedItems = try JSONDecoder().decode([codeCadeau].self, from: storedObjItem as! Data)
                 print("Retrieved items: \(storedItems)")
@@ -277,7 +277,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         let items: [codeCadeau] = obj
         //Storing Items
         if let encoded = try? JSONEncoder().encode(items) {
-            UserDefaults.standard.set(encoded, forKey: "items")
+            UserDefaults.standard.set(encoded, forKey: "items_qr")
+            print("C'est saved")
         }
     }
     

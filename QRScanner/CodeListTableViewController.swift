@@ -35,7 +35,7 @@ class CodeListTableViewController: UITableViewController {
     func loadData() {
         do {
             obj = []
-            let storedObjItem = UserDefaults.standard.object(forKey: "items")
+            let storedObjItem = UserDefaults.standard.object(forKey: "items_qr")
             if (storedObjItem != nil) {
                 let storedItems = try JSONDecoder().decode([codeCadeau].self, from: storedObjItem as! Data)
                 print("Retrieved items: \(storedItems)")
@@ -50,7 +50,7 @@ class CodeListTableViewController: UITableViewController {
         let items: [codeCadeau] = obj
         //Storing Items
         if let encoded = try? JSONEncoder().encode(items) {
-            UserDefaults.standard.set(encoded, forKey: "items")
+            UserDefaults.standard.set(encoded, forKey: "items_qr")
         }
     }
     
